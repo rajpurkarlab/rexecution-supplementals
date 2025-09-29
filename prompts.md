@@ -1,12 +1,12 @@
 # Supplementary Table 2
 
-**Prompts in question generation, scoring and tagging pipelines emphasize interpretation, clinical reasoning, and integration of multiple imaging findings.**
+<p><strong>Prompts in question generation, scoring and tagging pipelines emphasize interpretation, clinical reasoning, and integration of multiple imaging findings.</strong></p>
 
 <table>
   <thead>
     <tr>
-      <th>Task</th>
-      <th>Prompt</th>
+      <th style="width:15%">Task</th>
+      <th style="width:85%">Prompt</th>
     </tr>
   </thead>
   <tbody>
@@ -18,7 +18,6 @@
         <em>Example:</em> “List all indwelling tubes and lines visible on this frontal chest radiograph. Describe any evidence of complications related to each of them (e.g., malpositioning, pneumothorax or mediastinal emphysema). Box and label all findings. If there are no complications, say so.”
       </td>
     </tr>
-
     <tr>
       <td><strong>Question Scoring</strong></td>
       <td>
@@ -41,17 +40,17 @@
           <li>Risk flag</li>
         </ul>
         <strong>Format:</strong>
-        <pre>Scores:
+        <pre>
+Scores:
 - Clinical relevance: 5 - justification
 - Answerability: 3 - justification
 …
 - Risk flag: No
 Conclusion: 13
-</pre>
+        </pre>
         Question: {question}
       </td>
     </tr>
-
     <tr>
       <td><strong>Question Tagging</strong></td>
       <td>
@@ -62,11 +61,12 @@ Conclusion: 13
         List all plausible values separated by “–”. If more than four distinct values are plausible, use “Multiple”. Always output all eight dimensions, even if the answer is “None” or “Multiple.”
         <br><br>
         <strong>Format:</strong>
-        <pre>- tag_anatomical_region: Lung fields - Pleura
+        <pre>
+- tag_anatomical_region: Lung fields - Pleura
 - tag_pathology_type: Pneumonia
 …
 - tag_subtype: Descriptive
-</pre>
+        </pre>
       </td>
     </tr>
   </tbody>
