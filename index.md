@@ -11,12 +11,10 @@ This paper was published at the 2026 Pacific Symposium of Biocomputing.
 
 ---
 
-## Supplementary Table 2
 
 {% include_relative prompts.md %}
 
 ---
 
-## Supplementary Table 3
 
 {% include_relative score_criteria.md %}
