@@ -7,7 +7,7 @@ This paper was published at the 2026 Pacific Symposium of Biocomputing.
 
 ## Supplementary Figure 1
 
-![Supplementary Figure 1](figure1.png)
+![Supplementary Figure 1](figure_1.png)
 
 ---
 
