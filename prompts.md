@@ -1,4 +1,4 @@
-# Supplementary Table 2
+# Supplementary Table 1
 
 <p><strong>Prompts in question generation, scoring and tagging pipelines emphasize interpretation, clinical reasoning, and integration of multiple imaging findings.</strong></p>
 
