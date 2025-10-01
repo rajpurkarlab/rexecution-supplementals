@@ -1,4 +1,4 @@
-# Supplemental Table 3. Scoring criteria explicitly stating value definitions to ensure thorough, consistent, and reproducible assessment.
+# Supplemental Table 2. Scoring criteria explicitly stating value definitions to ensure thorough, consistent, and reproducible assessment.
 
 ## Process
 
